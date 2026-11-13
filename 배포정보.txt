@@ -1,0 +1,19 @@
+What's Missing? — 손 인식 개선 버전
+
+개선 버전 주소: https://beehyung0123-source.github.io/whats-missing-hand-lab/arrangement/
+새 저장소: beehyung0123-source/whats-missing-hand-lab
+배포 브랜치: codex/exhibition-hand-tracking, 루트(/)
+
+기준 소스: 기존 저장소의 codex/exhibition-hand-tracking 브랜치
+기준 커밋: 33d3ebfb0ccfea3be5700e7921621c5019ddfc2a
+arrangement의 웹 콘텐츠와 음원은 위 커밋과 동일합니다.
+로컬 실행용 start.js와 CMD, EXE, ZIP 파일은 웹 배포에 포함하지 않습니다.
+손 인식용 MediaPipe 및 글꼴은 인터넷에서 불러옵니다.
+
+검증: node --experimental-vm-modules --test tests/*.test.cjs
+
+기존 사이트는 별도 저장소의 gh-pages 브랜치에서 유지됩니다.
+기존 주소: https://beehyung0123-source.github.io/oserin_sonjiseuro-yeoneun-segye/arrangement/
+기존 배포 커밋: ed3afa214a86f41d97988502c3a257a65070e1d2
+
+이 저장소의 변경은 기존 사이트에 배포되지 않습니다.
