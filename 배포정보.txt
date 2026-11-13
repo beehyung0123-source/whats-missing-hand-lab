@@ -7,8 +7,17 @@ What's Missing? — 손 인식 개선 버전
 기준 소스: 기존 저장소의 codex/exhibition-hand-tracking 브랜치
 기준 커밋: 33d3ebfb0ccfea3be5700e7921621c5019ddfc2a
 arrangement의 웹 콘텐츠와 음원은 위 커밋과 동일합니다.
-로컬 실행용 start.js와 CMD, EXE, ZIP 파일은 웹 배포에 포함하지 않습니다.
+로컬 서버용 start.js와 CMD 파일은 포함하지 않습니다.
 손 인식용 MediaPipe 및 글꼴은 인터넷에서 불러옵니다.
+
+다른 노트북용 실행 파일
+- 전시용_개선버전.zip을 압축 해제해 전시시작.exe / 전시종료.exe를 사용합니다.
+- Windows 10/11, 설치된 Google Chrome, 인터넷 연결이 필요합니다.
+- 실행 파일은 이 저장소의 개선 버전 주소를 열고 해당 전시용 Chrome만 종료합니다.
+- 전시용_개선버전 폴더에도 EXE 두 개와 사용 안내가 들어 있습니다.
+- 빌드 소스: tools/exhibit-hand-lab/OnlineLauncher.cs
+- 빌드 스크립트: tools/exhibit-hand-lab/build.ps1
+- EXE와 ZIP은 배포 자료로 함께 보관하며, 웹페이지의 화면과 기능은 변경하지 않습니다.
 
 검증: node --experimental-vm-modules --test tests/*.test.cjs
 
